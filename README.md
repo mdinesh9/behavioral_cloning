@@ -55,7 +55,10 @@ _________________________________________________________________
 dense_3 (Dense)              (None, 10)                510       
 _________________________________________________________________
 dense_4 (Dense)              (None, 1)                 11        
-=================================================================
+
+
+
+
 Total params: 348,219
 Trainable params: 348,219
 Non-trainable params: 0
@@ -90,6 +93,7 @@ Non-trainable params: 0
         - I did not include the raw data in the git because of the size. The directory structure is:
             - data
                 - IMG
+                    - Contains the raw image data collected using manual simulation and recording using the simulator
                 - driving_log.csv
                     - This file consists of data points related to:
                         - images - center, left, right
